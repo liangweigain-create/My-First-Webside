@@ -21,26 +21,115 @@ body {
 }
 
 .header {
-    background-color: rgb(68, 68, 80);
-    padding: 20px 150px 80px 150px;
+    background-color: #1F2937;
+    padding: 10px 300px 80px 300px;
 }
 
 ul {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     list-style-type: none;
+    color:aliceblue;
+    margin: 0px;
+}
+
+a,
+#hero-para {
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 18px;
 }
 
 .top-header {
     justify-content: space-between;
+    margin: 30px 0px;
 }
 
 .second-header {
     justify-content: space-between;
+    gap: 80px;
 }
 
 #hero-img {
     padding: 0px;
     margin: 0px;
     flex: 0 1 500px;
+}
+
+.header-main {
+    flex: 0 0 300px;
+    padding: 0px;
+    gap: 5px;
+}
+
+#hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+#hero-para {
+    font-size:18px;
+    color:#E5E7EB;
+    margin: 0px;
+}
+
+button {
+    width: 120px;
+    margin: 10px 0px 0px 0px;
+    padding: 5px 15px;
+    border-radius: 30%;
+    background-color: rgb(108, 171, 198);
+    color: white;
+    outline: solid 1px white;
+}
+
+.container-1 {
+    padding: 20px 100px 20px 100px;
+    gap: 20px;
+}
+
+.happiness {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+#container-1-header {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.momments {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    outline: solid blue 2px;
+    border-radius: 10%;
+}
+
+.momment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-stuff {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 {
+    justify-content: center;
+    align-items: center;
 }
