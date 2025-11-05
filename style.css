@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+}
+
+.top-header,
+.second-header,
+.container-2,
+.footer,
+.happiness {
+    display: flex;
+}
+
+.container-1,
+.header-main,
+.header {
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgb(68, 68, 80);
+    padding: 20px 150px 80px 150px;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.top-header {
+    justify-content: space-between;
+}
+
+.second-header {
+    justify-content: space-between;
+}
+
+#hero-img {
+    padding: 0px;
+    margin: 0px;
+    flex: 0 1 500px;
+}
