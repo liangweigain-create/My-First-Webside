@@ -118,18 +118,28 @@ button {
     margin-bottom: 20px;
 }
 
-.momments {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    width: 150px;
-    height: 150px;
-    flex: 0 0;
-    border-radius: 10%;
+.moments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  /* 修正 flex 属性：保留固定尺寸，不伸缩 */
+  flex: 0 0 auto; /* 替代 flex: 0 0;，避免宽度被压缩为 0 */
+  border-radius: 10%;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  /* 可选：加个边框/背景，方便观察元素范围 */
+  border: 1px solid #ccc;
 }
 
-.momment {
+/* hover 选择器与类名保持一致 */
+.moments:hover {
+  transform: scale(1.2);
+}
+
+.moment {
     display: flex;
     flex-direction: column;
     flex: auto;
